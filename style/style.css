@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #133647, #18d868);
+}
+.red{
+  color: red;
+}
+#form {
+  height: 82vh;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 8vh;
+  border-radius: 3rem;
+}
+.input {
+  width: 50%;
+  height: 1.5rem;
+  margin-top: 1rem;
+}
+.label {
+  font-size: 30px;
+  margin-top: 1 rem;
+}
+
+#email label {
+  margin-top: 0.3rem;
+  margin-right: 2.5rem;
+}
+#password label {
+  margin-right: 0.2rem;
+}
+#gender {
+  margin-top: 20px;
+  margin-right: 8.5rem;
+}
+#genderLabel {
+  margin-right: 20px;
+}
+#country {
+  margin-top: 20px;
+  margin-right: 9rem;
+  margin-bottom: 1rem;
+}
+#selectCountry {
+  font-size: 1rem;
+  width: 35%;
+  height: 1.5rem;
+}
+#countryLabel {
+  margin-right: 20px;
+  text-align: center;
+}
+
+#btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 1rem;
+}
+#btn:hover {
+  background-color: #18d868;
+}

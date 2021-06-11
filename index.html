@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <!-- <form action="#" id="form" onsubmit="validateForm()"> -->
+    <form action="#" id="form">
+      <br />
+      <h1>Sign up Form</h1>
+
+      <br />
+
+      <div id="fName">
+        <label for="Fname" class="label">First name: </label>
+        <input type="text" class="input" id="fname" />
+        <!-- <p>Please Enter your first Name.</p> -->
+      </div>
+      <div id="lName">
+        <label for="lname" class="label">Last name: </label>
+        <input type="text" class="input" id="lname" />
+      </div>
+      <div id="email">
+        <label for="email" class="label">Email:</label>
+        <input type="text" class="input" id="userEmail" />
+      </div>
+      <div id="password">
+        <label for="password" class="label" >Password: </label>
+        <input type="text" class="input" id="userPassword" />
+      </div>
+      <div id="gender">
+        <label for="gender" class="label" id="genderLabel">Gender: </label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male" class="label">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female" class="label">Female</label>
+      </div>
+      <div id="country" >
+        <label for="country" class="label" id="countryLabel">Country:</label>
+        <select name="cars" id="selectCountry">
+          <option value="">Select</option>
+          <option value="Pakistan">Pakistan</option>
+          <option value="India">India</option>
+          <option value="Bangladesh">Bangladesh</option>
+          <option value="Nepal">Nepal</option>
+        </select>
+      </div>
+      <button id="btn" >Submit</button>
+    </form>
+  </body>
+  <script src="script/script.js"></script>
+</html>
